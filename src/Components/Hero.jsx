@@ -5,7 +5,7 @@ const Hero = () => {
     <section>
         <h2>Hola, Soy Alan</h2>
 
-        <p>Soy estudiante de la tecnicatura Universitaria en programción en la UTN-FRT</p>
+        <p>Soy estudiante de la tecnicatura Universitaria en programación en la UTN-FRT</p>
     </section>
   )
 }
