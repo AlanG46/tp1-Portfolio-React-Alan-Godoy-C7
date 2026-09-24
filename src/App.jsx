@@ -11,7 +11,10 @@ function App() {
 
   return (
     <>
-    <Header />
+    <Header 
+    nombre="Alan Godoy"
+    Profesion="Estudiante de programcion"
+    />
     <Hero />
     <About />
     <Skills />
