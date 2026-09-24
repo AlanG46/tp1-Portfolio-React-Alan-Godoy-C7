@@ -1,8 +1,26 @@
 import React from 'react'
 
 const Skills = () => {
+
+        const habilidades =[
+            'C#',
+            'SQL',
+            'HTML',
+            'CSS',
+            'JavaScript',
+            'React'
+        ]
+    
   return (
-    <div>Skills</div>
+    <section>
+        <h2> Habilidades</h2>
+
+        <ul>
+            {habilidades.map((habilidad) => (
+            <li key={habilidad}>{habilidad}</li>
+            ))}
+        </ul>
+        </section>
   )
 }
 
