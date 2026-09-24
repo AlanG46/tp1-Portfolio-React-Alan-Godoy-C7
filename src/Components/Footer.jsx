@@ -5,7 +5,14 @@ const Footer = () => {
     <footer>
         <p>@ 2026 Alan Godoy - Portfolio Personal</p>
         <p>Estudiante De programación - UTN-FRT</p>
+
+        <a href="https://github.com/AlanG46"
+        target='_blank'
+        rel='noreferrer'>
+            MI GITHUB
+            </a>
     </footer>
+    
   )
 }
 
