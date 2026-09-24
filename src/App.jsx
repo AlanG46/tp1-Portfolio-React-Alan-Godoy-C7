@@ -12,8 +12,8 @@ function App() {
   return (
     <>
     <Header 
-    nombre="Alan Godoy"
-    Profesion="Estudiante de programcion"
+    nombre="Alan Tobias Godoy"
+    Profesion="Estudiante de programación"
     />
     <Hero />
     <About />

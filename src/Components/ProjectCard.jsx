@@ -1,6 +1,6 @@
 import React, { useState } from 'react'
 
-const ProjectCard = ({Titulo, descripcion}) => {
+const ProjectCard = ({Titulo, descripcion,detalle}) => {
     const [mostrarMas, setMostrarMas] = useState(false)
   return (
     <article>
@@ -12,8 +12,7 @@ const ProjectCard = ({Titulo, descripcion}) => {
         </button>
         {mostrarMas && (
             <p>
-                Este proyecto me ayudo a entender fundamentos de programación en c#,
-                Permitiendome Avanzar mas en mi experiencia como desarrollador
+                {detalle}
             </p>
         )}
     </article>

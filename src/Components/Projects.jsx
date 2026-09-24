@@ -6,13 +6,15 @@ const Projects = () => {
         {
         id: 1,
         titulo: 'Sistema de gestion de stock',
-        descripcion: 'Desarrollo de sistema de gestion de stock en C# winforms'
+        descripcion: 'Desarrollo de sistema de gestion de stock en C# winforms',
+        detalle: 'Este proyecto lo hice para poder defender mi parcial de programación 2'
         },
         
         {
             id: 2,
             titulo: 'Calculadora en C#',
-            descripcion: 'Desarrollo de calculadora basica en c# de consola'
+            descripcion: 'Desarrollo de calculadora basica en c# de consola',
+            detalle: 'Fue uno de mis primeros proyectos realizados en la carrera'
             }
 
     ]
@@ -26,6 +28,7 @@ const Projects = () => {
                 key={proyecto.id}
                 Titulo={proyecto.titulo}
                 descripcion={proyecto.descripcion}
+                detalle={proyecto.detalle}
                 />
             ))}
         </div>
