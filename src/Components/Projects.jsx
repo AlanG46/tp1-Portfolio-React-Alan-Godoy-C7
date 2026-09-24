@@ -1,8 +1,35 @@
 import React from 'react'
+import ProjectCard from './projectcard'
 
 const Projects = () => {
+    const proyectos = [
+        {
+        id: 1,
+        titulo: 'Sistema de gestion de stock',
+        descripcion: 'Desarrollo de sistema de gestion de stock en C# winforms'
+        },
+        
+        {
+            id: 2,
+            titulo: 'Calculadora en C#',
+            descripcion: 'Desarrollo de calculadora basica en c# de consola'
+            }
+
+    ]
   return (
-    <div>Projects</div>
+    <section>
+
+        <h2>Proyectos</h2>
+        <div>
+            {proyectos.map((proyecto)=>(
+                <ProjectCard
+                key={proyecto.id}
+                Titulo={proyecto.titulo}
+                descripcion={proyecto.descripcion}
+                />
+            ))}
+        </div>
+    </section>
   )
 }
 
