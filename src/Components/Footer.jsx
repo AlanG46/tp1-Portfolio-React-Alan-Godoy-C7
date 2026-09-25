@@ -2,7 +2,7 @@ import React from 'react'
 
 const Footer = () => {
   return (
-    <footer>
+    <footer id='contacto'>
         <p>@ 2026 Alan Godoy - Portfolio Personal</p>
         <p>Estudiante De programación - UTN-FRT</p>
 

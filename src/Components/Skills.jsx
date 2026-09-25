@@ -12,7 +12,7 @@ const Skills = () => {
         ]
     
   return (
-    <section>
+    <section id='habilidades'>
         <h2> Habilidades</h2>
 
         <ul>
